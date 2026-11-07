@@ -84,11 +84,18 @@ No "is any of this real?" science segment, no end-screen lecture.
 
 ## Where the 2D Video plugin is wrong for this
 
+Note: your local studio (`C:\Users\beyon\Documents\5 YT - Consilyo Channel\2d video\2d-video\`) already has the custom **Clay & Sage** look (`clay`, made 2026-11-07): beige figures with black contour, hair styles bob/long/bun, trousers on everyone, no letterbox in 9:16, a varied cast via `vary()`. That fixes the "black stick people" and outfit rows below. The installed plugin itself is still stock (v0.1.1), so these rows describe the stock plugin. Clay still keeps the stock lighting rules (one visible key light, moody value structure) and the stock story template.
+
+| Plugin rule (style-bible.md) | What story channels do | Clay & Sage |
+|---|---|---|
+| Low-key, moody, cinematic lighting in every shot, 60-75% dark frame | Bright daytime by default, dark only for low points | Still moody (teal-slate shadows, apricot key), needs a bright day mood |
+| Pure black figures, ONE coloured garment | Full outfits, hair, hats, glasses, blush, sweat drops | Fixed: beige outlined figures, hair, trousers. Still missing blush/sweat drops, glasses |
+| Letterbox bars by default | Full frame, HUD in the corners | Fixed for 9:16 |
+
+The rows below apply to both stock and Clay:
+
 | Plugin rule (style-bible.md) | What story channels do |
 |---|---|
-| Low-key, moody, cinematic lighting in every shot, 60-75% dark frame | Bright daytime by default, dark only for low points |
-| Pure black figures, ONE coloured garment | Full outfits, hair, hats, glasses, blush, sweat drops |
-| Letterbox bars by default | Full frame, HUD in the corners |
 | One voiceover, "narrator is never lip-synced", talking only on quoted lines | Narrator + 3-6 voiced characters with constant dialogue |
 | "Never rewrite the narration", script is VO-first | Story must be *written* for this format (cast, attempts, twist) |
 | Data cards / badges occasionally, "keep text minimal" | Persistent premise HUD all video + phone/chat UI everywhere |
